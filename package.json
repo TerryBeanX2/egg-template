@@ -1,0 +1,55 @@
+{
+  "name": "zeqiao",
+  "version": "1.0.0",
+  "description": "泽桥官网",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "dayjs": "^1.8.6",
+    "egg": "^2.15.1",
+    "egg-axios": "^1.1.2",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^4.3.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0",
+    "factory-girl": "^5.0.4",
+    "sequelize-cli": "^5.4.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-zeqiao",
+    "start:test": "egg-scripts start --daemon --env=unittest --title=egg-server-zeqiao",
+    "stop": "egg-scripts stop --title=egg-server-zeqiao",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint . --fix",
+    "ci": "eslint . && NODE_ENV=test npx sequelize db:migrate && egg-bin cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "袁阳",
+  "license": "MIT"
+}
