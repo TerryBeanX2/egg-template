@@ -9,10 +9,6 @@ module.exports = {
         enable: true,
         package: 'egg-view-nunjucks'
     },
-    http: {
-        enable: true,
-        package: 'egg-axios'
-    },
     sequelize: {
         enable: true,
         package: 'egg-sequelize'

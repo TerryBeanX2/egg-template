@@ -3,6 +3,7 @@
     <title>Hacker News</title>
 </head>
 <body>
+<h2>{{publicPath}}</h2>
 <ul class="news-view view">
     {% for item in data %}
     <li class="item">
