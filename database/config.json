@@ -18,7 +18,7 @@
     "production": {
         "username": "root",
         "password": "oqcpph1Qlw.w",
-        "database": "database_production",
+        "database": "protal",
         "host": "127.0.0.1",
         "dialect": "mysql"
     }
