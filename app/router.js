@@ -6,6 +6,9 @@ module.exports = app => {
     router.get('/', controller.home.index)
     router.get('/about-us', controller.home.about_us)
     router.get('/news-list', controller.home.news_list)
+    router.get('/yijie', controller.home.yijie)
+    router.get('/yishiping', controller.home.yishiping)
+    router.get('/zq-doctor', controller.home.zq_doctor)
     router.post('/users/add', controller.users.create)
     router.resources('users', '/users', controller.users)
 }

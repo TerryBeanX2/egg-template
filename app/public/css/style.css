@@ -2316,7 +2316,6 @@ header.style2 .menu-box-inner .logo:before {
 .plan-bx2:before {
   content: "";
   position: absolute;
-  left: ;
   left: 0;
   top: 0;
   bottom: 0;
@@ -2548,6 +2547,8 @@ ul.slick-dots > li button {
   line-height: 185px;
 }
 .spnsr-itm > a img {display: inline-block !important;}
+
+/*noinspection ALL*/
 .spnsr-itm > a:hover {
   -webkit-filter: brightness(0);
   -ms-filter: brightness(0);
@@ -3357,7 +3358,6 @@ header.style7 nav > div > ul > li {
 .fe-vdo-wrp:before {
   content: "";
   position: absolute;
-  left: ;
   left: 0;
   right: 0;
   bottom: 0;
@@ -3437,7 +3437,6 @@ header.style7 nav > div > ul > li {
   content: "";
   position: absolute;
   left: 0;
-  right: ;
   right: 0;
   top: 0;
   bottom: 0;
@@ -5135,7 +5134,6 @@ header.style7 nav > div > ul > li {
   content: "";
   position: absolute;
   left: 0;
-  right: ;
   right: 50%;
   top: 0;
   bottom: 0;
