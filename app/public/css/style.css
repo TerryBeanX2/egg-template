@@ -627,7 +627,7 @@ header.stick.style1 {top: 30px;}
 .logo {display: inline-block;}
 header.style1 .logo {
   float: left;
-  padding: 24.7px 0;
+  padding: 10px 0;
 }
 header.style1 nav {float: right;}
 nav > div {
@@ -635,6 +635,7 @@ nav > div {
   width: 100%;
 }
 nav div ul {
+    height: 50px;
   display: inline-block;
   padding-left: 0;
   list-style: none;
@@ -658,7 +659,7 @@ nav > div > ul > li + li:before {
   left: -25px;
 }
 header.style1 nav div > ul {float: left;}
-header.style1 nav > div > ul > li {line-height: 75px;}
+header.style1 nav > div > ul > li {line-height: 50px;}
 nav > div > ul.srch-lnks > li + li {
   margin-left: 20px;
   padding-left: 25px;
@@ -7409,3 +7410,7 @@ main{
     padding-top: 0!important;
 }
 
+.fa{
+    width:20px;
+    text-align: center;
+}

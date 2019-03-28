@@ -35,6 +35,21 @@ class HomeController extends Controller {
         const { ctx } = this
         await ctx.render('zq-doctor.html')
     }
+
+    async news_detail () {
+        const { ctx } = this
+        await ctx.render('news-detail.html')
+    }
+
+    async news_detail1 () {
+        const { ctx } = this
+        await ctx.render('news-detail1.html')
+    }
+
+    async news_detail2 () {
+        const { ctx } = this
+        await ctx.render('news-detail2.html')
+    }
 }
 
 module.exports = HomeController

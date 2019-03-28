@@ -6,7 +6,8 @@ class AppBootHook {
 
     configWillLoad () {
         this.app.locals = {
-            publicPath
+            publicPath,
+            version: new Date().getTime()
         }
         // 此时 config 文件已经被读取并合并，但是还并未生效
         // 这是应用层修改配置的最后时机
