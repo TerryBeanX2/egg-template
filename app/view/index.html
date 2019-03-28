@@ -20,6 +20,9 @@
 </head>
 <body itemscope>
 {% include "./components/qq.html" %}
+{% if status=='0' %}
+<div class="alert alert-success" style="margin: 0;" role="alert">提交成功！</div>
+{% endif %}
 <main>
     {% include "./components/navbar.html" %}
     <section>
@@ -538,37 +541,37 @@
                                 <h2 class="no-bf" itemprop="headline">联系我们</h2>
                             </div>
                             <div class="cnt-frm-wrp text-center">
-                                <form>
+                                <form method="post" action="/customers/add">
                                     <div class="row mrg20">
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="姓名" name="name" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="手机" name="phone" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="企业名称" name="company_name" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="预算" name="budget" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="领域" name="field" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="项目类型" name="project_type" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="text" placeholder="Name" class="brd-rd3">
+                                            <input type="text" placeholder="投放目的" name="ad_aim" class="brd-rd3">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-lg-6">
-                                            <input type="email" placeholder="Email" class="brd-rd3">
+                                            <input type="text" placeholder="意向平台" name="like_platform" class="brd-rd3">
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-lg-12">
-                                            <textarea placeholder="Message" class="brd-rd3"></textarea>
+                                            <textarea placeholder="备注" name="tip" class="brd-rd3"></textarea>
                                         </div>
                                         <div class="col-md-12 col-sm-12 col-lg-12">
-                                            <button class="theme-btn hrz brd-rd3 theme-bf-bg" type="submit">SUBMIT NOW
+                                            <button class="theme-btn hrz brd-rd3 theme-bf-bg" type="submit">提交
                                             </button>
                                         </div>
                                     </div>
