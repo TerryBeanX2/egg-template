@@ -249,10 +249,10 @@ $(document).ready(function () {
                 "<i class='fa fa-angle-right'></i>"
             ],
             responsive: {
-                0: { items: 3 },
-                480: { items: 3, margin: 30 },
-                768: { items: 3, margin: 30 },
-                980: { items: 3, margin: 30 },
+                0: { items: 1 },
+                480: { items: 1, margin: 30 },
+                768: { items: 2, margin: 30 },
+                980: { items:2, margin: 30 },
                 1024: { items: 3, margin: 30 },
                 1200: { items: 3 }
             }

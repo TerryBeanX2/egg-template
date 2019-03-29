@@ -7423,3 +7423,12 @@ main{
 .bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
     color:#7a7a7a;
 }
+
+.fancybox-stage video{
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+    width:80;
+    height:80%;
+}
