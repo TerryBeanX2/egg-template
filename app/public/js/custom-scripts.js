@@ -314,19 +314,19 @@ $(document).ready(function () {
         })
 
         // === Contact Info Carousel ===//
-        $('.cnt-inf-car').owlCarousel({
-            autoplay: true,
-            smartSpeed: 600,
-            loop: true,
-            items: 1,
-            dots: true,
-            slideSpeed: 2000,
-            autoplayHoverPause: true,
-            nav: false,
-            margin: 30,
-            animateIn: 'slideInDown',
-            animateOut: 'slideOutDown'
-        })
+        // $('.cnt-inf-car').owlCarousel({
+        //     autoplay: false,
+        //     smartSpeed: 600,
+        //     loop: false,
+        //     items: 1,
+        //     dots: true,
+        //     slideSpeed: 2000,
+        //     autoplayHoverPause: true,
+        //     nav: false,
+        //     margin: 30,
+        //     animateIn: 'slideInDown',
+        //     animateOut: 'slideOutDown'
+        // })
 
         // === Contact Info Carousel ===//
         $('.cnt-inf-car2').owlCarousel({
