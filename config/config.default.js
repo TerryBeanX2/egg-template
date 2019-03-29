@@ -1,5 +1,6 @@
 /* eslint valid-jsdoc: "off" */
-const path = require('path')
+const fs = require('fs');
+const path = require('path');
 
 /**
  * @param {Egg.EggAppInfo} appInfo app info
@@ -10,6 +11,9 @@ module.exports = appInfo => {
      * @type {Egg.EggAppConfig}
      **/
     const config = {
+        siteFile: {
+            '/favicon.ico': fs.readFileSync(path.join(__dirname, '../app/public/favicon.png'))
+        },
         view: {
             defaultViewEngine: 'nunjucks',
             mapping: {
@@ -46,7 +50,7 @@ module.exports = appInfo => {
             dir: path.join(appInfo.baseDir, 'app/public'), // `String` or `Array:[dir1, dir2, ...]` 静态化目录,可以设置多个静态化目录
             dynamic: true, // 如果当前访问的静态资源没有缓存，则缓存静态文件，和`preload`配合使用；
             preload: false,
-            maxAge: 0, // in prod env, 0 in other envs
+            maxAge: 31536000, // in prod env, 0 in other envs
             buffer: false // in prod env, false in other envs
         }
     }
