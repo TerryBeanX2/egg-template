@@ -41,7 +41,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint . --fix",
     "ci": "eslint . && NODE_ENV=test npx sequelize db:migrate && egg-bin cov",
-    "autod": "autod"
+    "autod": "autod",
+    "restart": "npm run stop && npm run start"
   },
   "ci": {
     "version": "8"
