@@ -7551,7 +7551,7 @@ h1,h2{
     width: 200px;
     float:right;
     color:#fff;
-    background: rgba(90,161,224,0.3);
+    background: rgba(90,161,224,0.3)!important;
     margin-top: 0;
 }
 
