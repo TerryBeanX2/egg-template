@@ -333,6 +333,7 @@ div.no-btm {bottom: 0;}
 .mrg25 > div {padding: 0 12.4px;}
 .fixed-bg,
 .fixed-bg2{
+    background-origin: 50% 50%;
   background-position: center;
   height:100%;
   width:100%;
@@ -341,6 +342,7 @@ div.no-btm {bottom: 0;}
   left:0;
   top:0;
   z-index:-2;
+  background-repeat: no-repeat;
 }
 .fixed-bg{
   background-attachment:fixed;
@@ -7489,3 +7491,8 @@ main{
 h2,h4{
     font-family: pangmen!important;
 }
+
+.bold,.bold *{
+    font-weight: bold!important;
+}
+
