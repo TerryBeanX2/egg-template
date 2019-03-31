@@ -25,14 +25,15 @@
 {% endif %}
 <main>
     {% include "./components/navbar.html" %}
-    <section id="home">
-        <div class="spacing black-layer3 opc8">
+    <section id="home" class="font-pangmen">
+        <div class="spacing black-layer3 opc1">
             <div class="fixed-bg" style="background-image: url(assets/images/big/1920x530.jpg);"></div>
             <div id="prtcl2" class="particle-bx"></div>
             <div class="container">
-                <div class="pg-tp-wrp text-center">
-                    <div class="pg-tp-inr spacing top-spac80">
+                <div class="pg-tp-wrp text-center" style="float: none;">
+                    <div class="pg-tp-inr spacing top-spac80 bottom-spac0">
                         <h1 style="font-size: 80px;" itemprop="headline">医学&nbsp;&nbsp;<span style="color:#fab702;" class="theme-clr">传媒</span>&nbsp;&nbsp;科技</h1>
+                        <h1 style="font-size: 35px;margin-left: 60px;" itemprop="headline">MEDICAl<span style="color:#fab702;margin:0 80px 0 110px;" class="theme-clr">MEDIA</span>TECHNOLOGY</h1>
                         <!--<ol class="breadcrumb">-->
                             <!--<li class="breadcrumb-item active">MEDICAL</li>-->
                             <!--<li class="breadcrumb-item active">MEDIA</li>-->
@@ -44,14 +45,14 @@
         </div>
     </section>
     <section id="about-us">
-        <div class="spacing">
+        <div class="spacing bottom-spac60">
             <div class="container">
                 <div class="srv-wrp">
                     <div class="row">
                         <div class="col-md-4 col-sm-12 col-lg-4">
                             <div class="sec-tl1">
                                 <!--<i>OUR SERVICES</i>-->
-                                <h2 itemprop="headline">关于泽桥</h2>
+                                <h2 itemprop="headline" class="font-pangmen">关于泽桥</h2>
                                 <p itemprop="description">立足于医疗领域，专注于健康传播内容与技术创新。企业有“医阶”“医视屏”“泽桥医生”三大国内有影响力的医学传播平台。</p>
                                 <a href="/about-us" title="" itemprop="url">MORE</a>
                             </div>
@@ -61,14 +62,14 @@
                                 <div class="srv-bx text-center">
                                     <i class="brd-rd50"><img src="assets/images/icon/100x100service.png"
                                                              alt="srv-icn1-1.png" itemprop="image"></i>
-                                    <h4 itemprop="headline"><a href="#" title="" itemprop="url">医学服务</a></h4>
+                                    <h4 itemprop="headline"><a href="#" title="" itemprop="url" class="font-pangmen">医学服务</a></h4>
                                     <p itemprop="description">立足于医疗领域，专注于健康传播内容与技术创新。</p>
                                     <a href="/about-us" title="" itemprop="url">MORE</a>
                                 </div><!-- Service Box -->
                                 <div class="srv-bx text-center">
                                     <i class="brd-rd50"><img src="assets/images/icon/100x100healthy.png"
                                                              alt="srv-icn1-2.png" itemprop="image"></i>
-                                    <h4 itemprop="headline"><a href="#" title="" itemprop="url">健康传播</a></h4>
+                                    <h4 itemprop="headline"><a href="#" title="" itemprop="url" class="font-pangmen">健康传播</a></h4>
                                     <p itemprop="description">企业有“医阶”“医视屏”“泽桥医生”三大国内有影响力的医学传播平台。</p>
                                     <a href="/about-us" title="" itemprop="url">MORE</a>
                                 </div><!-- Service Box -->
@@ -79,9 +80,9 @@
             </div>
         </div>
     </section>
-    <section id="products" style="height: 50px;"></section>
+    <section id="products" style="height: 100px;"></section>
     <section>
-        <div class="spacing top-spac200 bottom-spac200">
+        <div class="spacing">
             <div class="fixed-bg" style="background-image: url(assets/images/big/1920x688.jpg);"></div>
             <div id="prtcl1" class="particle-bx"></div>
             <div class="container">
@@ -91,8 +92,9 @@
                             <div class="choose-car overlap150 overlap-160 owl-carousel nav-vc">
                                 <div class="plan-bx theme-bf-bg brd-rd20 text-center" style="background-image: url(assets/images/main-pro/yijie.jpg);">
                                     <div class="plan-hdr">
+                                        <div class="icon-main-pro" style="background-image: url(assets/images/main-pro/icon-yijie.png)"></div>
                                         <!--<i class="flaticon-043-medal"></i>-->
-                                        <h6 itemprop="headline">医阶</h6>
+                                        <!--<h6 itemprop="headline">医阶</h6>-->
                                         <!--<span><sup>$</sup>10<i>/mo</i></span>-->
                                     </div>
                                     <div class="plan-bdy">
@@ -101,28 +103,29 @@
                                             <li>最信赖的伙伴</li>
                                         </ul>
                                     </div>
-                                    <a class="theme-btn hrz brd-rd3" href="/yijie" title="" itemprop="url">医阶</a>
+                                    <a class="theme-btn hrz brd-rd3 trans" href="/yijie" title="" itemprop="url">more</a>
                                 </div>
                                 <div class="plan-bx theme-bf-bg brd-rd20 text-center" style="background-image: url(assets/images/main-pro/yishiping.jpg);">
                                     <div class="plan-hdr">
+                                        <div class="icon-main-pro" style="background-image: url(assets/images/main-pro/icon-yishiping.png)"></div>
                                         <!--<i class="flaticon-056-trophy"></i>-->
-                                        <h6 itemprop="headline">医视屏</h6>
+                                        <!--<h6 itemprop="headline">医视屏</h6>-->
                                         <!--<span><sup>$</sup>10<i>/mo</i></span>-->
                                     </div>
                                     <div class="plan-bdy">
                                         <ul class="pln-fctr-lst">
                                             <li>助力中国医生终身职业教育</li>
                                             <li>最权威的医学视频大百科</li>
-                                            <li>省时、省心</li>
-                                            <li>高质、高效</li>
+                                            <li>省时、省心、高质、高效</li>
                                         </ul>
                                     </div>
-                                    <a class="theme-btn hrz brd-rd3" href="/yishiping" title="" itemprop="url">医视屏</a>
+                                    <a class="theme-btn hrz brd-rd3 trans" href="/yishiping" title="" itemprop="url">more</a>
                                 </div>
                                 <div class="plan-bx theme-bf-bg brd-rd20 text-center" style="background-image: url(assets/images/main-pro/zeqiaodoc.jpg);">
                                     <div class="plan-hdr">
+                                        <div class="icon-main-pro" style="background-image: url(assets/images/main-pro/icon-yisheng.png)"></div>
                                         <!--<i class="flaticon-075-plug"></i>-->
-                                        <h6 itemprop="headline">泽桥医生</h6>
+                                        <!--<h6 itemprop="headline">泽桥医生</h6>-->
                                         <!--<span><sup>$</sup>10<i>/mo</i></span>-->
                                     </div>
                                     <div class="plan-bdy">
@@ -131,7 +134,7 @@
                                             <li> 泽桥医生为你保驾护航</li>
                                         </ul>
                                     </div>
-                                    <a class="theme-btn hrz brd-rd3" href="/zq-doctor" title="" itemprop="url">泽桥医生</a>
+                                    <a class="theme-btn hrz brd-rd3 trans" href="/zq-doctor" title="" itemprop="url">more</a>
                                 </div>
                             </div><!-- Choose Carousel -->
                         </div>
@@ -149,7 +152,7 @@
         </div>
     </section>
     <section>
-        <div class="spacing top-spac80 bottom-spac0">
+        <div class="spacing top-spac200 bottom-spac0">
             <div class="sec-tl2 text-center">
                 <i>cooperation</i>
                 <h2 itemprop="headline">企业合作</h2>
@@ -167,9 +170,9 @@
                 <h2 itemprop="headline">作品展示</h2>
             </div>
             <div class="prjcts-wrp text-center">
-                <div class="prjcts-inr theme-bg">
+                <div class="prjcts-inr theme-bg" style="background: #fff;">
                     <ul class="fltr-btns">
-                        <li class="active" style="color: #fff;">人文 企业宣传</li>
+                        <li class="active" style="font-family: pangmen">人文企业宣传</li>
                         <!--<li><a data-filter=".fltr-itm1" href="#" itemprop="url">BRANDING</a></li>-->
                         <!--<li><a data-filter=".fltr-itm2" href="#" itemprop="url">BUSSINESS</a></li>-->
                         <!--<li><a data-filter=".fltr-itm3" href="#" itemprop="url">CONSULTANS</a></li>-->
@@ -324,8 +327,8 @@
         </div>
     </section>
     <section>
-        <div class="spacing top-spac190 bottom-spac0">
-            <div class="fixed-bg2" style="background-image: url(assets/images/big/1920x820.jpg);"></div>
+        <div class="spacing top-spac190 bottom-spac190">
+            <div class="fixed-bg2" style="background-image: url(assets/images/big/xuanchuanpianbg.jpg);"></div>
             <div class="container">
                 <div class="vdo-wrp">
                     <div class="row">
@@ -453,7 +456,7 @@
                         </div>
                         <div class="col-md-5 col-sm-12 col-lg-5">
                             <div class="cnt-inf-wrp cnt-inf-car owl-carousel theme-bg"
-                                 style="margin-top: 150px;padding-top: 40px;display: block;">
+                                 style="margin-top: 150px;padding: 100px 50px;display: block;">
                                 <div class="cnt-inf-itm">
                                     <!--<h4 itemprop="headline">Branch office #1</h4>-->
                                     <ul class="cnt-inf-lst">
