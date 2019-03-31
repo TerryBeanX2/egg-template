@@ -1297,11 +1297,11 @@ nav div ul ul.miror > li {width: 50%;}
 .pln-fctr-lst > li {
   font-size: 14px;
   color: #fff;
-  letter-spacing: 0;
   font-family: poppins;
   float: left;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 6px;
+    letter-spacing: 1px;
 }
 
 
@@ -7428,9 +7428,7 @@ main{
     text-align: center;
 }
 
-.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
-    color:#7a7a7a;
-}
+
 
 .fancybox-stage video{
     position: fixed;
@@ -7445,7 +7443,7 @@ main{
     background: transparent;
     color:rgba(255,255,255,1);
     border:1px solid rgba(255,255,255,.5);
-    padding:1px 10px;
+    padding:1px 35px;
     letter-spacing: 2px;
     font-size:15px;
     border-radius: 5px;
@@ -7525,9 +7523,24 @@ h1,h2{
 }
 
 .cnt-frm-wrp > form input, .cnt-frm-wrp > form button, .cnt-frm-wrp > form textarea{
-    background: rgba(0,0,0,0.8)!important;
-    border: 2px solid rgba(90,161,224,0.8);
+    background: rgba(255,255,255,0.3)!important;
+    border: 2px solid rgba(90,161,224,0.3);
     color:#fff;
+}
+
+.cnt-frm-wrp form button.theme-btn:before{
+    background: rgba(90,161,224,0.3);
+}
+.cnt-frm-wrp form button.theme-btn:hover{
+    color:#fff;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
+    color:rgba(255,255,255,0.8);
+}
+
+.cnt-frm-wrp > form input::-webkit-input-placeholder, .cnt-frm-wrp > form button::-webkit-input-placeholder, .cnt-frm-wrp > form textarea::-webkit-input-placeholder{
+    color:rgba(255,255,255,0.8);
 }
 
 .cnt-frm-wrp form input:focus{
@@ -7535,7 +7548,13 @@ h1,h2{
 }
 
 .cnt-frm-wrp form button.theme-btn{
+    width: 200px;
+    float:right;
     color:#fff;
+}
+
+.cnt-inf-itm li{
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 720px) {
