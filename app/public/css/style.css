@@ -7492,8 +7492,9 @@ main{
     font-family: pangmen!important;
 }
 
-h2{
+h1,h2{
     font-family: pangmen!important;
+    font-weight: normal!important;
 }
 
 .bold,.bold *{
