@@ -7523,7 +7523,7 @@ h1,h2{
 }
 
 .cnt-frm-wrp > form input, .cnt-frm-wrp > form button, .cnt-frm-wrp > form textarea{
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.3)!important;
     border: 2px solid rgba(90,161,224,0.3);
     color:#fff;
 }
