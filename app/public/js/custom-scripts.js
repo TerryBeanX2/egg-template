@@ -235,9 +235,9 @@ $(document).ready(function () {
 
         // === Choose Plan Carousel ===//
         $('.choose-car').owlCarousel({
-            autoplay: true,
+            autoplay: false,
             smartSpeed: 600,
-            loop: true,
+            loop: false,
             items: 3,
             dots: false,
             slideSpeed: 2000,

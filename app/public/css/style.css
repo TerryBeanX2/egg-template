@@ -7443,8 +7443,11 @@ main{
 
 .plan-bx a.trans{
     background: transparent;
-    color:rgba(255,255,255,.5);
+    color:rgba(255,255,255,1);
     border:1px solid rgba(255,255,255,.5);
+    padding:5px 10px;
+    letter-spacing: 1px;
+    font-size:15px;
 }
 
 .menu-item:before{
@@ -7496,3 +7499,39 @@ h2,h4{
     font-weight: bold!important;
 }
 
+.choose-car .owl-stage-outer{
+    overflow: visible;
+}
+.choose-car .owl-stage-outer .plan-bx{
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+
+.choose-car .theme-bf-bg:before{
+    background: rgba(90,161,224,0.2);
+}
+
+.choose-car .plan-bx:hover .pln-fctr-lst > li{
+    color:#fff;
+}
+
+.btn.dropdown-toggle.btn-default{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.btn.dropdown-toggle.bs-placeholder.btn-default{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.cnt-frm-wrp > form input, .cnt-frm-wrp > form button, .cnt-frm-wrp > form textarea{
+    background: rgba(0,0,0,0.8)!important;
+    border: 2px solid rgba(90,161,224,0.8);
+    color:#fff;
+}
+
+.cnt-frm-wrp form input:focus{
+    background: rgba(0,0,0,0.5)!important;
+}
+
+.cnt-frm-wrp form button.theme-btn{
+    color:#fff;
+}
