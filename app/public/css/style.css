@@ -7519,17 +7519,17 @@ h1,h2{
 }
 
 .btn.dropdown-toggle.bs-placeholder.btn-default{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.3);
 }
 
 .cnt-frm-wrp > form input, .cnt-frm-wrp > form button, .cnt-frm-wrp > form textarea{
-    background: rgba(255,255,255,0.3)!important;
+    background: rgba(255,255,255,0.3);
     border: 2px solid rgba(90,161,224,0.3);
     color:#fff;
 }
 
 .cnt-frm-wrp form button.theme-btn:before{
-    background: rgba(90,161,224,0.3);
+    background: rgba(90,161,224,0.8);
 }
 .cnt-frm-wrp form button.theme-btn:hover{
     color:#fff;
@@ -7551,6 +7551,8 @@ h1,h2{
     width: 200px;
     float:right;
     color:#fff;
+    background: rgba(90,161,224,0.3);
+    margin-top: 0;
 }
 
 .cnt-inf-itm li{
