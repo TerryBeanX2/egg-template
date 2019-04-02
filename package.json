@@ -42,7 +42,8 @@
     "lint": "eslint . --fix",
     "ci": "eslint . && NODE_ENV=test npx sequelize db:migrate && egg-bin cov",
     "autod": "autod",
-    "restart": "npm run stop && npm run start"
+    "restart": "npm run stop && npm run start",
+    "up":"git pull && npm run restart"
   },
   "ci": {
     "version": "8"
