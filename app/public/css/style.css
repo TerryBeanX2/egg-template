@@ -346,7 +346,7 @@ div.no-btm {bottom: 0;}
 }
 .fixed-bg{
   background-attachment:fixed;
-  background-size:cover!important;
+  background-size:cover;
 }
 .fixed-bg2 {
   background-attachment: scroll;
