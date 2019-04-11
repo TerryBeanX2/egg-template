@@ -7569,3 +7569,7 @@ h1,h2{
         display: none;
     }
 }
+
+.blk-clr>li{
+    color:#000!important;
+}
