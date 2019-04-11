@@ -1,5 +1,5 @@
 /**
- * DaoJia ESLint Rules
+ * Yuanyang ESLint Rules
  *
  * 使用 babel-eslint 作为解析器
  *
@@ -107,7 +107,7 @@ module.exports = {
                 null: 'ignore'
             }
         ],
-        
+
         // 禁止使用 foo == null 或 foo != null，必须使用 foo === null 或 foo !== null
         'no-eq-null': 'off',
         // 禁止使用 eval
