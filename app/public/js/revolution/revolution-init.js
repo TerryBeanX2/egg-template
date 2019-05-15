@@ -10,7 +10,7 @@ tpj(document).ready(function () {
             jsFileLocation: 'revolution/js/',
             sliderLayout: 'auto',
             dottedOverlay: 'none',
-            delay: 5000,
+            delay: 9000,
             navigation: {
                 keyboardNavigation: 'off',
                 keyboard_direction: 'horizontal',
@@ -23,7 +23,7 @@ tpj(document).ready(function () {
                     tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div></div>'
                 },
                 touch: {
-                    touchenabled: 'on',
+                    touchenabled: 'off',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
@@ -38,8 +38,9 @@ tpj(document).ready(function () {
             parallax: {
                 type: 'mouse',
                 origo: 'slidercenter',
-                speed: 2000,
-                levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+                speed: 5000,
+                // levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+                levels: [5, 6, 7],
                 disable_onmobile: 'on'
             },
             shadow: 0,
