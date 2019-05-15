@@ -7631,7 +7631,7 @@ h1[itemprop=headline]{
     padding:5px;
     position: relative;
     margin: 30px 0;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: normal;
     letter-spacing:1px;
 }
@@ -7656,8 +7656,9 @@ h1[itemprop=headline]{
 
 .article{
     text-indent:30px;
-    font-size:16px;
+    font-size:18px;
     line-height:26px;
+    letter-spacing:1px;
 }
 
 .blue-left{
@@ -7671,4 +7672,8 @@ h1[itemprop=headline]{
 .tl-stl > h4{
    font-size: 24px;
     margin-bottom: -20px;
+}
+
+.container.article{
+    width:960px;
 }
