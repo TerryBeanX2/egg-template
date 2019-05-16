@@ -38,9 +38,9 @@ tpj(document).ready(function () {
             parallax: {
                 type: 'mouse',
                 origo: 'slidercenter',
-                speed: 5000,
-                // levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
-                levels: [5, 6, 7],
+                speed: 6000,
+                levels: [ 2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+                // levels: [5, 6, 7],
                 disable_onmobile: 'on'
             },
             shadow: 0,
