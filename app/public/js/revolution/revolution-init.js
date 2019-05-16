@@ -6,7 +6,7 @@ tpj(document).ready(function () {
         revslider_showDoubleJqueryError('#rev_slider_4_1')
     } else {
         revapi4 = tpj('#rev_slider_4_1').show().revolution({
-            sliderType: 'standard',
+            // sliderType: 'standard',
             jsFileLocation: 'revolution/js/',
             sliderLayout: 'auto',
             dottedOverlay: 'none',
