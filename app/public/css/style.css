@@ -7677,3 +7677,7 @@ h1[itemprop=headline]{
 .container.article{
     width:960px;
 }
+
+.newsP{
+    min-height: 120px;
+}
