@@ -7575,10 +7575,11 @@ h1,h2{
 }
 
 .blueh2{
-    font-size:24px;
+    font-size:28px;
     color:#2db0f6;
     border-left: 5px solid #2db0f6;
     padding-left: 10px;
+    margin-bottom: 50px;
 }
 
 .blue-dot{
@@ -7589,7 +7590,8 @@ h1,h2{
     background: #2db0f6;
     margin-right: 15px;
     position: relative;
-    top:-1px;
+    top:-3px;
+    left:3px;
 }
 
 .sanjiao-sec{
@@ -7599,6 +7601,7 @@ h1,h2{
     height: 500px;
     line-height: 500px;
     vertical-align: middle;
+    margin: 30px 0;
 }
 
 .sanjiao-sec img{
@@ -7608,8 +7611,9 @@ h1,h2{
 
 .sanjiao-text{
     width:50%;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
     display: inline-block;
     padding-right: 30px;
     padding-left: 30px;
@@ -7680,4 +7684,9 @@ h1[itemprop=headline]{
 
 .newsP{
     min-height: 120px;
+}
+
+p[itemprop=description]{
+    font-size: 16px;
+    letter-spacing:1px;
 }
