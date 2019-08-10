@@ -7563,6 +7563,56 @@ h1,h2{
     .big{
         display: none;
     }
+    #home{
+        min-height: 300px!important;
+    }
+    #videoPPP{
+        padding-top: 100px!important;
+    }
+    .atLogo{
+        min-height: 300px;
+    }
+    .atLogo .fixed-bg{
+        background-size: auto!important;
+    }
+    .sanjiao-sec{
+        flex-direction: column;
+        height: auto!important;
+    }
+    .sanjiao-sec>img{
+        width: 90%!important;
+        margin-bottom: 50px;
+        display: none!important;
+    }
+    .sanjiao-sec .sanjiao-text{
+        width: 100%!important;
+    }
+    .col-xs-4{
+        width: 33.3333333%!important;
+    }
+    .sjsjsj{
+        margin-top: 130px!important;
+        height: 300px;
+        transform: scale(2);
+    }
+    .cor-bx{
+        transform: scale(0.5);
+        margin: -10px 0;
+    }
+    .blue-half-circle{
+        font-size: 14px!important;
+        margin: 20px 0!important;
+        line-height: 20px!important;
+    }
+    .blueh2{
+        font-size: 20px!important;
+    }
+    .hidewhensmall{
+        display: none!important;
+    }
+    .showwhensmall{
+        display: block!important;
+    }
 }
 @media only screen and (min-width: 721px) {
     .small{
@@ -7638,6 +7688,7 @@ h1[itemprop=headline]{
     font-size: 30px;
     font-weight: normal;
     letter-spacing:1px;
+    text-indent: 0!important;
 }
 
 .blue-half-circle:after{

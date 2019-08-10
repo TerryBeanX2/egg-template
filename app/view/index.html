@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/revolution/navigation.css?version={{ version }}">
 </head>
 <body itemscope>
-{% include "./components/qq.html" %}
+<!--{% include "./components/qq.html" %}-->
 {% if status=='0' %}
 <div class="alert alert-success" style="margin: 0;" role="alert">提交成功！</div>
 {% endif %}
@@ -70,6 +70,12 @@
                     <li data-index="rs-2" data-transition="curtain-3" data-link="/about-us">
 
                         <img src="assets/images/banner-yinpin.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                             data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+                    </li>
+                    <li data-index="rs-2" data-transition="curtain-3" >
+
+                        <img src="assets/images/banner03.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                              data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                     </li>
@@ -156,15 +162,15 @@
                                      style="background-image: url(assets/images/main-pro/yijie-2.jpg);">
                                     <div class="plan-hdr">
                                         <div class="icon-main-pro"
-                                             style="background-image: url(assets/images/main-pro/icon-yijie.png)"></div>
+                                             style="background-image: url(assets/images/yijielogor.png);background-size: contain;background-repeat: no-repeat;background-position: center;"></div>
                                         <!--<i class="flaticon-043-medal"></i>-->
                                         <!--<h6 itemprop="headline">医阶</h6>-->
                                         <!--<span><sup>$</sup>10<i>/mo</i></span>-->
                                     </div>
                                     <div class="plan-bdy">
                                         <ul class="pln-fctr-lst blk-clr">
-                                            <li>中国医生终身职业教育</li>
-                                            <li>最信赖的伙伴</li>
+                                            <li>医疗从业者终身学习</li>
+                                            <li>值得信赖的伙伴</li>
                                         </ul>
                                     </div>
                                     <a class="theme-btn hrz brd-rd3 trans" href="/yijie" title=""
@@ -199,8 +205,8 @@
                                     </div>
                                     <div class="plan-bdy">
                                         <ul class="pln-fctr-lst blk-clr">
-                                            <li>好看、可信赖的</li>
-                                            <li>医疗健康科普平台</li>
+                                            <li>即时化、精准化的</li>
+                                            <li>医疗健康信息与服务</li>
                                         </ul>
                                     </div>
                                     <a class="theme-btn hrz brd-rd3 trans" href="/zq-doctor" title="" itemprop="url">MORE</a>
@@ -227,7 +233,7 @@
                 <h2 itemprop="headline">企业合作</h2>
             </div>
             <div class="col-md-10 col-sm-10 col-lg-10" style="margin: 0 auto;">
-                <img src="assets/images/logoWall.png" style="width: 100%;" alt="">
+                <img src="assets/images/logos.png" style="width: 100%;" alt="">
             </div>
         </div>
     </section>
@@ -397,7 +403,7 @@
         </div>
     </section>
     <section style="margin-bottom: 130px;">
-        <div class="spacing top-spac190 bottom-spac190">
+        <div id="videoPPP" class="spacing top-spac190 bottom-spac190">
             <div class="fixed-bg2"
                  style="background-image: url(assets/images/new_big/1920x820_shipin.jpg);background-position: bottom;"></div>
             <div class="container">
@@ -536,12 +542,18 @@
                                 <div class="cnt-inf-itm">
                                     <!--<h4 itemprop="headline">Branch office #1</h4>-->
                                     <ul class="cnt-inf-lst">
-                                        <li><i class="fa fa-map-marker"></i> 北京市经济技术开发区荣华南路国锐广场B座3903
-                                        </li>
-                                        <!--<li><i class="fa fa-clock-o"></i> Monday to Friday: 9am to 8pm</li>-->
-                                        <li><i class="fa fa-envelope-o"></i> bd@zeqiao.com
-                                        </li>
-                                        <li><i class="fa fa-mobile"></i>010-53269095</li>
+                                        <li>医疗视频策划制作推广<span style="margin: 0 10px;">吴经理</span>17310871832</li>
+                                        <li>医疗音频策划制作推广<span style="margin: 0 10px;">付经理</span></li>
+                                        <li>科普内容策划制作推广<span style="margin: 0 10px;">张经理</span></li>
+                                        <li>医疗直播策划执行发布<span style="margin: 0 10px;">温经理</span></li>
+                                        <li>医疗媒体投放监测评估<span style="margin: 0 10px;">赵经理</span></li>
+                                        <li>卫健委及协会合作整体解决方案<span style="margin: 0 10px;">吴经理</span></li>
+                                        <!--<li><i class="fa fa-map-marker"></i> 北京市经济技术开发区荣华南路国锐广场B座3903-->
+                                        <!--</li>-->
+                                        <!--&lt;!&ndash;<li><i class="fa fa-clock-o"></i> Monday to Friday: 9am to 8pm</li>&ndash;&gt;-->
+                                        <!--<li><i class="fa fa-envelope-o"></i> bd@zeqiao.com-->
+                                        <!--</li>-->
+                                        <!--<li><i class="fa fa-mobile"></i>010-53269095</li>-->
                                     </ul>
                                 </div>
                             </div>
