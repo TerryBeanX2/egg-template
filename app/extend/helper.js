@@ -1,4 +1,6 @@
-const dayjs = require('dayjs')
+// const dayjs = require('dayjs')
+const moment = require('moment')
 module.exports = {
-    relativeTime: time => dayjs().format(time)
+    relativeTime: time => moment(time).format('L'),
+    toString: t => JSON.stringify(t)
 }

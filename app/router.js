@@ -15,6 +15,6 @@ module.exports = app => {
     router.get('/news-detail2', controller.home.news_detail2)
     router.post('/users/add', controller.users.create)
     router.post('/customers/add', controller.customers.create)
-    router.get('/customers/find', controller.customers.index)
+    router.get('/customers/find', controller.customers.list)
     router.resources('users', '/users', controller.users)
 }

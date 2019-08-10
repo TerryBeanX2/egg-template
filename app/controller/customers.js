@@ -7,6 +7,13 @@ function toInt (str) {
 }
 
 class CustomersController extends Controller {
+    async list () {
+        const ctx = this.ctx
+        const query = { limit: toInt(ctx.query.limit), offset: toInt(ctx.query.offset) }
+        const data = await ctx.model.Customers.findAll(query)
+        console.log(data)
+        await ctx.render('demo/list.tpl', { data })
+    }
     async index () {
         const ctx = this.ctx
         const query = { limit: toInt(ctx.query.limit), offset: toInt(ctx.query.offset) }
