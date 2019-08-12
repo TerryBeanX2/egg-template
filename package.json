@@ -31,7 +31,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-zeqiao",
+    "start": "egg-scripts start --daemon --title=egg-server-zeqiao --port=80",
     "start:test": "egg-scripts start --daemon --env=unittest --title=egg-server-zeqiao",
     "stop": "egg-scripts stop --title=egg-server-zeqiao",
     "dev": "egg-bin dev",
