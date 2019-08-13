@@ -7483,15 +7483,15 @@ main{
 }
 
 .font-pangmen *{
-    font-family: pangmen!important;
+    font-family: pangmen, Helvetica, Sans-Serif!important;
 }
 
 .font-pangmen{
-    font-family: pangmen!important;
+    font-family: pangmen, Helvetica, Sans-Serif!important;
 }
 
 h1,h2{
-    font-family: pangmen!important;
+    font-family: pangmen, Helvetica, Sans-Serif!important;
     font-weight: normal!important;
 }
 
